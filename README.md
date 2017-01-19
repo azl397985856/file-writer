@@ -20,7 +20,8 @@ And then the browser will pop a download dialog with filename 'a.csv'.
 
 ## API
 
-- `.writer(filename, content)`: content will be encoded as binary automaticly;
+- `.writer(filename = 'file', content, encode = 'utf-8')`: content will be encoded as binary automaticly;
+you'r recommended to supply fileName with extension.
 
 ## Contributing
 
