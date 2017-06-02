@@ -14,7 +14,7 @@ writer('a.csv', '\
 year,age,status,sex,population\r\n\
 1850,20,0,1,1017281\r\n\
 1850,20,0,2,1003841\r\n\
-')
+',{})
 ```
 And then the browser will pop a download dialog with filename 'a.csv'.
 
